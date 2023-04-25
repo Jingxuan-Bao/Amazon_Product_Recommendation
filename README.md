@@ -1,5 +1,25 @@
-# Amazon_Product_Recommendation
-Amazon electronic product recommender system
+# Amazon Electronic Product Recommender System
 
+Our goal is to create a sophisticated machine learning model to build an Amazon electronic product recommender system.
 
-For different model implementations, please check out the different branches (KNN, SVD, DL)
+## Data Processing and Filtering
+
+We perform basic data exploratory data analysis (EDA) and data filtering using the `data_processing.ipynb` notebook.
+
+The filtered data is saved as `filtered_data.csv`.
+
+**Data Filter:**
+![Data Filter](./figures/data_filter.png)
+
+**Filtered Data Distribution:**
+![Filtered Data - Average User](./figures/after_avguser.jpg)
+![Filtered Data - Average Product](./figures/after_avgproduct.jpg)
+
+## Baseline Models Implementation
+
+We implement several basic models, including SVD, SVD++, KNN, and KNN Baseline. The entire process can be found in `/baselinemodel/BaselineModels.ipynb`.
+
+The training process includes grid search for optimizing hyperparameters and cross-validation for evaluating model performance.
+
+**Baseline Model Performance:**
+![Baseline Model Performance](./figures/baseline_performance.jpg)
