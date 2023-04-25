@@ -23,3 +23,10 @@ The training process includes grid search for optimizing hyperparameters and cro
 
 **Baseline Model Performance:**
 ![Baseline Model Performance](./figures/baseline_performance.jpg)
+
+## LSTM Implementation
+
+We implement lstm to take the timestamp feature in our dataset. The entire process can be found in `/lstm model/lstm.ipynb`.
+
+**LSTM learning curve :**
+![LSTM learning curve](https://github.com/JingxuanBao/Amazon_Product_Recommendation/blob/3065b013da3554c327e987c971a3658ed180be46/lstm%20model/figure/learning_curve.png)
