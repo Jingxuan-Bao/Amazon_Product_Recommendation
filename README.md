@@ -36,4 +36,4 @@ We implement lstm to take the timestamp feature in our dataset. The entire proce
 We've also implemented basic fully connect neural network. The entire process can be found in `/neural network model/neural_net.ipynb`.
 
 **Neural Network learning curve :**
-![Neural Network learning curve](./figures/learning_curve.png)
+![Neural Network learning curve](./figures/NN.png)
