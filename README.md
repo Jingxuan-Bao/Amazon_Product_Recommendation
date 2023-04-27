@@ -40,4 +40,4 @@ We've also implemented basic fully connect neural network. The entire process ca
 
 ## Report
 
-You can find more details about our work in 'report/CIS519_Final_Report.pdf'
+You can find more details about our work in `/report/CIS519_Final_Report.pdf`.
