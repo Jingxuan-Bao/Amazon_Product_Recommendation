@@ -37,3 +37,7 @@ We've also implemented basic fully connect neural network. The entire process ca
 
 **Neural Network learning curve :**
 ![Neural Network learning curve](./figures/NN.png)
+
+## Report
+
+You can find more details about our work in 'report/CIS519_Final_Report.pdf'
